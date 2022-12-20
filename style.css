@@ -1,0 +1,84 @@
+body {
+    background-color: #F8D030; /* Cor amarela dos Pokémon */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #6D5E54; /* Cor marrom escura */
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input[type="text"] {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  #search-button {
+    background-color: #6D5E54; /* Cor marrom escura */
+    color: #F8D030; /* Cor amarela dos Pokémon */
+    border: none;
+    padding: 0.8em 1.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #search-button:hover {
+    background-color: #F8D030; /* Cor amarela dos Pokémon */
+    color: #6D5E54; /* Cor marrom escura */
+  }
+  
+  #result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  #result img {
+    width: 15em;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  #result h1 {
+    font-size: 2em;
+    color: #6D5E54; /* Cor marrom escura */
+    margin: 0;
+  }
+  
+  #result p {
+    font-size: 1.5em;
+    color: #6D5E54; /* Cor marrom escura */
+    margin: 0;
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    label, input[type="text"] {
+      font-size: 1em;
+    }
+    #search-button {
+      font-size: 1em;
+    }
+    #result img {
+      width: 10em;
+    }
+    #result h1 {
+      font-size: 1.5em;
+    }
+    #result p {
+      font-size: 1em;
+    }
+  }
+  
